@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Arima:wght@300;500&display=swap" rel="stylesheet">
+	<title>Previsão do tempo</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div id="data"></div>
+	<div id="hora"></div>
+	<div class="container">
+		<div class="start">
+			<input class="input-cidade" placeholder="Digite o nome da cidade">
+			<button onclick="cliqueiNoBotao()">
+				<img class="lupa" src="./imagem/lupa.png" alt="lupa">
+			</button>
+		</div>
+
+		<div class="middle">
+			<h2 class="cidade">Tempo em Porto Alegre</h2>
+			<p class="temperatura">28°C</p>
+		</div>
+
+		<div class="end">
+			<img class="icone" src="https://openweathermap.org/img/wn/04n.png">
+			<p class="descricao">Nuvens dispersas</p>
+		</div>
+
+		<p class="umidade">Umidade: 70%</p>
+	</div>
+	<a class="background"><img
+			src="./imagem/como-sera-o-clima-de-dezembro-sera-que-as-chuvas-intensas-continuam-1669882123782_1280.webp"
+			alt="background"></a>
+</body>
+<script src="./script.js"></script>
+
+</html>
